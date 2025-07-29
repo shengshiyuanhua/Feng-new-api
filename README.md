@@ -1,7 +1,5 @@
-<p align="right">
-   <strong>中文</strong> | <a href="./README.en.md">English</a>
-</p>
-<div align="center">
+ <strong>中文</strong> | <a href="./README.en.md">English</a>
+
 
 ![new-api](/web/public/logo.png)
 
@@ -11,7 +9,6 @@
 
 <a href="https://trendshift.io/repositories/8227" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8227" alt="Calcium-Ion%2Fnew-api | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-<p align="center">
   <a href="https://raw.githubusercontent.com/Calcium-Ion/new-api/main/LICENSE">
     <img src="https://img.shields.io/github/license/Calcium-Ion/new-api?color=brightgreen" alt="license">
   </a>
@@ -27,13 +24,11 @@
   <a href="https://goreportcard.com/report/github.com/Calcium-Ion/new-api">
     <img src="https://goreportcard.com/badge/github.com/Calcium-Ion/new-api" alt="GoReportCard">
   </a>
-</p>
-</div>
 
 ## 📝 项目说明
 
 > [!NOTE]  
-> 本项目为开源项目，在[One API](https://github.com/songquanpeng/one-api)的基础上进行二次开发
+> 本项目为开源项目，在[One API](https://github.com/songquanpeng/one-api)和[New API](https://github.com/QuantumNous/new-api)的基础上进行二次开发
 
 > [!IMPORTANT]  
 > - 本项目仅供个人学习使用，不保证稳定性，且不提供任何技术支持。
@@ -134,12 +129,12 @@ New API提供了丰富的功能，详细特性请参考[特性说明](https://do
 
 #### 使用宝塔面板Docker功能部署
 安装宝塔面板（**9.2.0版本**及以上），在应用商店中找到**New-API**安装即可。
-[图文教程](./docs/BT.md)
+[图文教程](./docs/installation/BT.md)
 
 #### 使用Docker Compose部署（推荐）
 ```shell
 # 下载项目
-git clone https://github.com/Calcium-Ion/new-api.git
+git clone https://github.com/shengshiyuanhua/new-api.git
 cd new-api
 # 按需编辑docker-compose.yml
 # 启动
@@ -190,4 +185,4 @@ docker run --name new-api -d --restart always -p 3000:3000 -e SQL_DSN="root:1234
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Calcium-Ion/new-api&type=Date)](https://star-history.com/#Calcium-Ion/new-api&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=shengshiyuanhua/new-api&type=Date)](https://www.star-history.com/#shengshiyuanhua/new-api&Date)
