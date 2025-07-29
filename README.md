@@ -1,13 +1,9 @@
  <strong>中文</strong> | <a href="./README.en.md">English</a>
+ 
 
-
-![new-api](/web/public/logo.png)
-
-# New API
+# Feng New API
 
 🍥新一代大模型网关与AI资产管理系统
-
-<a href="https://trendshift.io/repositories/8227" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8227" alt="Calcium-Ion%2Fnew-api | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
   <a href="https://raw.githubusercontent.com/Calcium-Ion/new-api/main/LICENSE">
     <img src="https://img.shields.io/github/license/Calcium-Ion/new-api?color=brightgreen" alt="license">
@@ -49,7 +45,7 @@ New API提供了丰富的功能，详细特性请参考[特性说明](https://do
 1. 🎨 全新的UI界面
 2. 🌍 多语言支持
 3. 💰 支持在线充值功能（易支付）
-4. 🔍 支持用key查询使用额度（配合[neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool)）
+4. 🔍 支持用key查询使用额度（配合[名称-待更新](地址-待更新)）
 5. 🔄 兼容原版One API的数据库
 6. 💵 支持模型按次数收费
 7. ⚖️ 支持渠道加权随机
@@ -134,7 +130,7 @@ New API提供了丰富的功能，详细特性请参考[特性说明](https://do
 #### 使用Docker Compose部署（推荐）
 ```shell
 # 下载项目
-git clone https://github.com/shengshiyuanhua/new-api.git
+git clone https://github.com/shengshiyuanhua/Feng-new-api.git
 cd new-api
 # 按需编辑docker-compose.yml
 # 启动
@@ -169,20 +165,11 @@ docker run --name new-api -d --restart always -p 3000:3000 -e SQL_DSN="root:1234
 
 ## 相关项目
 - [One API](https://github.com/songquanpeng/one-api)：原版项目
+- [New API](https://github.com/QuantumNous/new-api)：二开项目
 - [Midjourney-Proxy](https://github.com/novicezk/midjourney-proxy)：Midjourney接口支持
-- [chatnio](https://github.com/Deeptrain-Community/chatnio)：下一代AI一站式B/C端解决方案
-- [neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool)：用key查询使用额度
+- 预留-用key查询使用额度
 
-其他基于New API的项目：
-- [new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon)：New API高性能优化版
-
-## 帮助支持
-
-如有问题，请参考[帮助支持](https://docs.newapi.pro/support)：
-- [社区交流](https://docs.newapi.pro/support/community-interaction)
-- [反馈问题](https://docs.newapi.pro/support/feedback-issues)
-- [常见问题](https://docs.newapi.pro/support/faq)
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=shengshiyuanhua/new-api&type=Date)](https://www.star-history.com/#shengshiyuanhua/new-api&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=shengshiyuanhua/Feng-new-api&type=Date)](https://www.star-history.com/#shengshiyuanhua/Feng-new-api&Date)

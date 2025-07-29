@@ -5,7 +5,7 @@
 
 ![new-api](/web/public/logo.png)
 
-# New API
+# Feng New API
 
 🍥 Next-Generation Large Model Gateway and AI Asset Management System
 
@@ -33,7 +33,7 @@
 ## 📝 Project Description
 
 > [!NOTE]  
-> This is an open-source project developed based on [One API](https://github.com/songquanpeng/one-api)
+> This is an open-source project developed based on [One API](https://github.com/songquanpeng/one-api) and [New API](https://github.com/QuantumNous/new-api)
 
 > [!IMPORTANT]  
 > - This project is for personal learning purposes only, with no guarantee of stability or technical support.
@@ -54,7 +54,7 @@ New API offers a wide range of features, please refer to [Features Introduction]
 1. 🎨 Brand new UI interface
 2. 🌍 Multi-language support
 3. 💰 Online recharge functionality (YiPay)
-4. 🔍 Support for querying usage quotas with keys (works with [neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool))
+4. 🔍 Support for querying usage quotas with keys (works with [name-to-be-updated](address-to-be-updated))
 5. 🔄 Compatible with the original One API database
 6. 💵 Support for pay-per-use model pricing
 7. ⚖️ Support for weighted random channel selection
@@ -134,12 +134,12 @@ For detailed deployment guides, please refer to [Installation Guide-Deployment M
 
 #### Using BaoTa Panel Docker Feature
 Install BaoTa Panel (version **9.2.0** or above), find **New-API** in the application store and install it.
-[Tutorial with images](./docs/BT.md)
+[Tutorial with images](./docs/installation/BT.md)
 
 #### Using Docker Compose (Recommended)
 ```shell
 # Download the project
-git clone https://github.com/Calcium-Ion/new-api.git
+git clone https://github.com/shengshiyuanhua/Feng-new-api.git
 cd new-api
 # Edit docker-compose.yml as needed
 # Start
@@ -174,21 +174,10 @@ For detailed API documentation, please refer to [API Documentation](https://docs
 
 ## Related Projects
 - [One API](https://github.com/songquanpeng/one-api): Original project
+- [New API](https://github.com/QuantumNous/new-api): Secondary development project
 - [Midjourney-Proxy](https://github.com/novicezk/midjourney-proxy): Midjourney interface support
-- [chatnio](https://github.com/Deeptrain-Community/chatnio): Next-generation AI one-stop B/C-end solution
-- [neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool): Query usage quota with key
-
-Other projects based on New API:
-- [new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon): High-performance optimized version of New API
-- [VoAPI](https://github.com/VoAPI/VoAPI): Frontend beautified version based on New API
-
-## Help and Support
-
-If you have any questions, please refer to [Help and Support](https://docs.newapi.pro/support):
-- [Community Interaction](https://docs.newapi.pro/support/community-interaction)
-- [Issue Feedback](https://docs.newapi.pro/support/feedback-issues)
-- [FAQ](https://docs.newapi.pro/support/faq)
+- Reserved - Query usage quota with key
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Calcium-Ion/new-api&type=Date)](https://star-history.com/#Calcium-Ion/new-api&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=shengshiyuanhua/Feng-new-api&type=Date)](https://www.star-history.com/#shengshiyuanhua/Feng-new-api&Date)
